@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOB PORTAL</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="header-container">
+            <div id="head-one">
+                <img src="portal-dot.svg" alt="">
+                <h2>DevJobs</h2>
+            </div>
+            <div id="head-two">
+                <a href="home">Home</a>
+                <a href="job">Jobs</a>
+                <a href="contact">Contact</a>
+                <div><button>Sign Up</button></div>
+            </div>
+        </div>
+    </header>
+    <!-- HR LINE -->
+    <div>
+        <hr class="hr-line">
+    </div>
+    <!-- BACKGROUND IMAGE -->
+    <div class="bg-image">
+        <img src="portal-bg.svg" alt="">
+    </div>
+    <!-- JOB HEADING -->
+    <div class="job-heading">
+        <h3>Job Listings</h3>
+    </div>
+    <!-- JOB PORTAL BUTTONS -->
+    <div class="portal-btn">
+        <select id="jobTypeSelect">
+            <option value="All">Job-Type</option>
+            <option value="Full-Time">Full-Time</option>
+            <option value="Part-Time">Part-Time</option>
+            <option value="Internship">Internship</option>
+        </select>
+    </div>
+    <!-- FRONTENED-DEVELOPER -->
+    <div class="frontened-padding job-listing" data-type="Full-Time">
+        <div class="frontened-container">
+            <div class="frontened">
+                <h3>Frontend Developer</h3>
+                <p>Full-Time | San Francisco, CA</p>
+                <button class="apply-btn" data-title="Frontend Developer">Apply</button>
+            </div>
+            <div class="frontened-img">
+                <img src="portal-img1.svg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- FRONTENED-ENGINEER -->
+<div class="engineer-padding job-listing" data-type="Part-Time"> 
+    <div class="engineer-container"> 
+        <div class="engineer"> 
+            <h3>Frontend Engineer</h3>
+             <p>Part-Time | Remote</p>
+               <button onclick="window.location.href='index1.html?title=Engineer'" class="apply-btn" data-title="Frontend Engineer">Apply</button>
+            </div> 
+            <div class="engineer-img">
+                 <img src="portal-img2.svg" alt=""> 
+                </div>
+             </div>
+             </div>
+    <!-- FRONTENED-INTERN -->
+    <div class="intern-padding job-listing" data-type="Internship">
+        <div class="intern-container">
+            <div class="intern">
+                <h3>Frontend Developer Intern</h3>
+                <p>Internship | New York, NY</p>
+                <button onclick="window.location.href='index1.html?title=Intern'"class="apply-btn" data-title="Frontend Developer Intern">Apply</button>
+            </div>
+            <div class="intern-img">
+                <img src="portal-img3.svg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <div class="footer">
+        <div class="footer-nav">
+            <p>About</p>
+            <p>Privacy Policy</p>
+            <p>Terms of Service</p>
+        </div>
+        <div class="footer-img">
+            <img src="twitter.svg" alt="">
+            <img src="linkedin.svg" alt="">
+            <img src="github.svg" alt="">
+        </div>
+        <div class="footer-p">
+            <p>© 2024 DevJobs. All rights reserved.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
